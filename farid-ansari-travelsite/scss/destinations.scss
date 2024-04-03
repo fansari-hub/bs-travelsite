@@ -1,5 +1,6 @@
 @use 'partials/global' as *;
 @use 'partials/anim' as *;
+@use 'partials/colors' as *;
 
 
 .destination{
@@ -28,7 +29,7 @@
     }
 
     &__title{
-        color: #FFFFFF;
+        color: $colDesinationLabel;
         font-size: 4rem;
     }
 
@@ -45,7 +46,7 @@
             border-color: rgba(0,0,0,0.2);
             // box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
             position: relative;
-            background-color: #FFFFFF;
+            background-color: $colDefaultBackground;
             padding-left: 10px;
             padding-right: 10px;
             padding-bottom: 40px;
@@ -66,7 +67,7 @@
                 padding-left: 0px;
 
                 &__activity{
-                    background-color: #FEFAF5;
+                    background-color: $colAcivityBackground;
                     padding-top: 13px;
                     padding-bottom: 13px;
                     text-align: center;

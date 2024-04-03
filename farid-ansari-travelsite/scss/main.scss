@@ -1,8 +1,9 @@
 @use 'partials/global' as *;
 @use 'partials/anim' as *;
+@use 'partials/colors' as *;
 
 .hero{
-    background-color: #FEFAF5;
+    background-color: $colHeroBackground;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -12,18 +13,18 @@
     padding-right: 9%;
 
     &__slogan{
-        color: #335576;
+        color: $colTitle;
         font-size: 2.5rem;
     }
 
     &__text{
-        color:#335576;
+        color: $colTitle;
         font-size: 1rem;
     }
 
     &__CTAButton{
-        background-color: #DB7A4E;
-        color: #FFFFFF;
+        background-color: $colButton;
+        color: $colButtonText;
         border-radius: 20px;
         border-style: none;
         margin-top: 20px;
@@ -52,7 +53,7 @@
     padding-right: 8%;
 
     &__title{
-        color: #335576;
+        color: $colTitle;
         font-size: 1.6rem;
     }
 
@@ -99,7 +100,7 @@
                 position: absolute;
                 bottom: 0px;
                 right: 20px;
-                color: white;
+                color: $colDesinationLabel;
                 font-size: 1.6rem;
                 font-weight: 700;
             }

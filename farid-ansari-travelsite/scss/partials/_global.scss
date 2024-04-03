@@ -1,4 +1,5 @@
 @use 'anim' as *;
+@use 'colors' as *;
 
 :root{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -6,14 +7,14 @@
 }
 
 .mainBody{
-    background-color: white;
+    background-color: $colBodyBackground;
     margin: 0px;
     padding: 0px;
 }
 
 
 .header{
-    background-color: #FFFFFF;
+    background-color: $colDefaultBackground;
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -22,12 +23,12 @@
     padding-bottom: 0px;
 
     &__wordmark{
-        color: #335576;
+        color: $colWordMark;
         font-weight: 700;
         font-size: 1.3rem;
 
         &__link{
-            color: #335576;
+            color: $colWordMark;
             text-decoration: none;
         }
     }
@@ -45,7 +46,7 @@
     padding-left: 0px;
     
     &__link{
-        color: black;
+        color: $colNavLink;
         text-decoration: none;
         padding-bottom: 10px;
 
@@ -58,14 +59,14 @@
         &--active{
             border-width: 0px 0px 3px 0px;
             border-style: solid;
-            border-color: #DB7A4E;
+            border-color: $colHighlight;
         }
     }
     
 }
 
 .footer{
-    background-color: #FEFAF5;
+    background-color: $colFooterBackground;
     padding-top: 40px;
     padding-bottom: 30px;
     padding-left: 13%;
@@ -97,17 +98,17 @@
         }
 
         &__title{
-            color: #335576;
+            color: $colTitle;
             font-size: 1.55rem;
         }    
 
         &__text{
-            color: #335576;
+            color: $colTitle;
             font-size: 1rem;
         }
 
         &__hightlight{
-            color: #DB7A4E;
+            color: $colHighlight;
             font-size: 0.65rem;
         }
 

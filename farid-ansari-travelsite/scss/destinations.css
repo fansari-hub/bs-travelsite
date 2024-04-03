@@ -22,6 +22,7 @@
   100% {
     transform: scale(1.2);
     background-color: skyblue;
+    color: black;
   }
 }
 @keyframes navHover {
@@ -36,7 +37,7 @@
 }
 
 .mainBody {
-  background-color: white;
+  background-color: #FFFFFF;
   margin: 0px;
   padding: 0px;
 }
