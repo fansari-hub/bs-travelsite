@@ -1,0 +1,90 @@
+@use 'partials/global' as *;
+
+.hero{
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 9%;
+    padding-right: 9%;
+
+    &__slogan{
+        color: #335576;
+        font-size: 2.5rem;
+    }
+
+    &__text{
+        color:#335576;
+        font-size: 1rem;
+    }
+
+    &__CTAButton{
+        background-color: #DB7A4E;
+        color: #FFFFFF;
+        border-radius: 20px;
+        border-style: none;
+        margin-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    &__image{
+        width: 420px;
+    }
+}
+
+.recommendation{
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    &__title{
+        color: #335576;
+        font-size: 1.6rem;
+    }
+
+    &__cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        justify-content: center;
+
+        &__item{
+            width: 255px;
+            height: 382px;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: rgba(0,0,0,0.2);
+            box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+            position: relative;
+
+            &:hover{
+                top: -10px;
+                left: -10px;
+                box-shadow: 8px 8px 8px rgba(0,0,0,0.6);
+            }
+
+            &__bk{
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            &__label{
+                position: absolute;
+                bottom: 0px;
+                right: 20px;
+                color: white;
+                font-size: 1.6rem;
+                font-weight: 700;
+            }
+        }
+
+        
+    }
+}

@@ -1,0 +1,119 @@
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.mainBody{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0px;
+
+    &__wordmark{
+        color: #335576;
+        font-weight: 700;
+        font-size: 1.3rem;
+
+        &__link{
+            color: #335576;
+            text-decoration: none;
+        }
+    }
+
+    &__navContainer{
+        background-color: none;
+    }
+}
+
+.siteNav
+{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-left: 0px;
+    
+    &__link{
+        color: black;
+        text-decoration: none;
+        padding-bottom: 10px;
+
+        &:hover{
+            color:#DB7A4E;
+            text-decoration:underline;
+        }
+
+        &--active{
+            border-width: 0px 0px 3px 0px;
+            border-style: solid;
+            border-color: #DB7A4E;
+        }
+    }
+    
+}
+
+.footer{
+    background-color: #FEFAF5;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 13%;
+    padding-right: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+
+    &__card{
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
+        background-color: none;
+        
+
+        &__bar{
+            list-style: none;
+            display: flex;
+            padding-left: 0px;
+            background-color: none;
+            
+
+            &__cell{
+                background-color: none;
+                padding-right: 30px;
+            }
+        }
+
+        &__title{
+            color: #335576;
+            font-size: 1.55rem;
+        }    
+
+        &__text{
+            color: #335576;
+            font-size: 1rem;
+        }
+
+        &__hightlight{
+            color: #DB7A4E;
+            font-size: 0.65rem;
+        }
+
+        &__icon{
+            background-color: none;
+            height: 25px;
+            padding-top: 35px;
+        }
+        
+    }
+    
+}
