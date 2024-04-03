@@ -1,0 +1,35 @@
+@keyframes cardHover{
+    0%{
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+        top: 0px;
+        left: 0px;
+    }
+    100%{
+        top: -5px;
+        left: -5px;
+        box-shadow: 8px 8px 8px rgba(0,0,0,0.6);
+    }
+}
+
+@keyframes shiftBackground{
+    0%{
+        background-position-y:-690px;        
+    }
+    100%{
+        background-position-y:0px;
+    }
+}
+
+@keyframes buttonHover{
+    100%{
+        transform:scale(1.2);
+        background-color: skyblue;
+    }
+}
+
+@keyframes navHover{
+    100%{
+        color: #DB7A4E;
+        text-decoration: underline;
+    }
+}

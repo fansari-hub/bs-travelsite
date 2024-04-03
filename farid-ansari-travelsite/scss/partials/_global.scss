@@ -1,3 +1,5 @@
+@use 'anim' as *;
+
 :root{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
@@ -48,8 +50,9 @@
         padding-bottom: 10px;
 
         &:hover{
-            color:#DB7A4E;
-            text-decoration:underline;
+            animation: navHover;
+            animation-duration: 0.5s;
+            animation-fill-mode: forwards;
         }
 
         &--active{

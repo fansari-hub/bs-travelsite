@@ -1,3 +1,35 @@
+@keyframes cardHover {
+  0% {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: -5px;
+    left: -5px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.6);
+  }
+}
+@keyframes shiftBackground {
+  0% {
+    background-position-y: -690px;
+  }
+  100% {
+    background-position-y: 0px;
+  }
+}
+@keyframes buttonHover {
+  100% {
+    transform: scale(1.2);
+    background-color: skyblue;
+  }
+}
+@keyframes navHover {
+  100% {
+    color: #DB7A4E;
+    text-decoration: underline;
+  }
+}
 :root {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
@@ -43,8 +75,9 @@
   padding-bottom: 10px;
 }
 .siteNav__link:hover {
-  color: #DB7A4E;
-  text-decoration: underline;
+  animation: navHover;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
 .siteNav__link--active {
   border-width: 0px 0px 3px 0px;
@@ -127,6 +160,11 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.hero__CTAButton:hover {
+  animation: buttonHover;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
 .hero__image {
   width: 420px;
 }
@@ -157,9 +195,20 @@
   position: relative;
 }
 .recommendation__cards__item:hover {
-  top: -10px;
-  left: -10px;
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.6);
+  animation: cardHover;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+.recommendation__cards__item:notactive {
+  animation: cardHover;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+.recommendation__cards__item:active {
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  filter: contrast(2);
 }
 .recommendation__cards__item__bk {
   width: 100%;

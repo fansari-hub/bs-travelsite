@@ -1,4 +1,5 @@
 @use 'partials/global' as *;
+@use 'partials/anim' as *;
 
 
 .destination{
@@ -7,9 +8,12 @@
     padding-left: 8%;
     padding-right: 8%;
     background-size:cover;
-    background-position-x: 0px ;
     background-position-y: -690px ;
     background-repeat:no-repeat;
+    animation: shiftBackground;
+    animation-duration: 2s;
+    animation-direction:alternate-reverse;
+    animation-timing-function:ease-in-out;
 
     &--hawaii{
         background-image: url("../assets/Images/hawaii.jpg");
