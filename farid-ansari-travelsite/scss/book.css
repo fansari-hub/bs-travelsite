@@ -1,0 +1,188 @@
+@keyframes cardHover {
+  0% {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    top: 0px;
+    left: 0px;
+  }
+  100% {
+    top: -5px;
+    left: -5px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.6);
+  }
+}
+@keyframes shiftBackground {
+  0% {
+    background-position-y: -690px;
+  }
+  100% {
+    background-position-y: 0px;
+  }
+}
+@keyframes buttonHover {
+  100% {
+    transform: scale(1.2);
+    background-color: skyblue;
+    color: black;
+  }
+}
+@keyframes navHover {
+  100% {
+    color: #DB7A4E;
+    text-decoration: underline;
+  }
+}
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.mainBody {
+  background-color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0px;
+}
+.header__wordmark {
+  color: #335576;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.header__wordmark__link {
+  color: #335576;
+  text-decoration: none;
+}
+.header__navContainer {
+  background-color: none;
+}
+
+.siteNav {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-left: 0px;
+}
+.siteNav__link {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.siteNav__link:hover {
+  animation: navHover;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.siteNav__link--active {
+  border-width: 0px 0px 3px 0px;
+  border-style: solid;
+  border-color: #DB7A4E;
+}
+
+.footer {
+  background-color: #FEFAF5;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 13%;
+  padding-right: 13%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.footer__card {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  background-color: none;
+}
+.footer__card__bar {
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  background-color: none;
+}
+.footer__card__bar__cell {
+  background-color: none;
+  padding-right: 30px;
+}
+.footer__card__title {
+  color: #335576;
+  font-size: 1.55rem;
+}
+.footer__card__text {
+  color: #335576;
+  font-size: 1rem;
+}
+.footer__card__hightlight {
+  color: #DB7A4E;
+  font-size: 0.65rem;
+}
+.footer__card__icon {
+  background-color: none;
+  height: 25px;
+  padding-top: 35px;
+}
+
+.formCont {
+  background-color: #FEFAF5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 9%;
+  padding-right: 9%;
+  background-image: url("../assets/Images/hero.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1000px;
+}
+.formCont__title {
+  color: #335576;
+  font-size: 2.5rem;
+}
+.formCont__form {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 22rem;
+  padding: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.formCont__form__label {
+  color: #DB7A4E;
+  font-size: 1rem;
+}
+.formCont__form__field {
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 14px;
+}
+.formCont__form__field--singleLineText {
+  width: 20rem;
+}
+.formCont__form__field--multiLineText {
+  width: 20rem;
+  height: 4rem;
+}
+.formCont__form__field--combobox {
+  width: 20rem;
+}
+.formCont__form__button {
+  background-color: #DB7A4E;
+  color: #FFFFFF;
+  border-radius: 20px;
+  border-style: none;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=book.css.map */

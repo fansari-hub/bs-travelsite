@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greece</title>
-    <link href="../scss/destinations.css" rel="stylesheet">
+    <title>Book Today!</title>
+    <link href="../scss/book.css" rel="stylesheet">
 </head>
 <body class="mainBody">
     <div class="header">
@@ -16,43 +16,34 @@
                 <li><a class="siteNav__link" href="../index.html">Home</a></li>
                 <li><a class="siteNav__link" href="./hawaii.html">Hawaii</a></li>
                 <li><a class="siteNav__link" href="./iceland.html">Iceland</a></li>
-                <li><a class="siteNav__link siteNav__link--active" href="./greece.html">Greece</a></li>
+                <li><a class="siteNav__link" href="./greece.html">Greece</a></li>
             </ul>
         </nav>
         </nav>
     </div>
-    <section class="destination destination--greece">
-        <h1 class="destination__title">Greece</h1>
-        <div class="destination__cards">
-            <article class="destination__cards__item">
-            <p class="destination__cards__item__label">Friday</p>
-            <ul class="destination__cards__item__activityList">
-                <li class="destination__cards__item__activityList__activity">Breakfast</li>
-                <li class="destination__cards__item__activityList__activity">Lunch</li>
-                <li class="destination__cards__item__activityList__activity">Dinner</li>
-                <li class="destination__cards__item__activityList__activity">Snorkeling</li>
-            </ul>
-        </article>
-            <article class="destination__cards__item">
-            <p class="destination__cards__item__label">Saturday</p>
-            <ul class="destination__cards__item__activityList">
-                <li class="destination__cards__item__activityList__activity">Breakfast</li>
-                <li class="destination__cards__item__activityList__activity">Lunch</li>
-                <li class="destination__cards__item__activityList__activity">Dinner</li>
-                <li class="destination__cards__item__activityList__activity">Snorkeling</li>
-            </ul>
-        </article>
-            <article class="destination__cards__item">
-            <p class="destination__cards__item__label">Sunday</p>
-            <ul class="destination__cards__item__activityList">
-                <li class="destination__cards__item__activityList__activity">Breakfast</li>
-                <li class="destination__cards__item__activityList__activity">Lunch</li>
-                <li class="destination__cards__item__activityList__activity">Dinner</li>
-                <li class="destination__cards__item__activityList__activity">Snorkeling</li>
-            </ul>
-        </article>
-        </div>
+
+    <section class="formCont">
+        <h1 class="formCont__title">Book Today!</h1>
+            <form class = "formCont__form" action = "">
+                <label class = "formCont__form__label" for="bk_name">Name</label><br>
+                <input class = "formCont__form__field formCont__form__field--singleLineText" type="text" id="bk_name" name="bk_name" value=""><br>
+                <label class = "formCont__form__label" for="bk_email">Email</label><br>
+                <input class = "formCont__form__field formCont__form__field--singleLineText"  type="text" id="bk_email" name="bk_email" value=""><br>
+                <label class = "formCont__form__label" for="bk_phone">Phone</label><br>
+                <input class = "formCont__form__field formCont__form__field--singleLineText"  type="text" id="bk_phone" name="bk_phone" value=""><br>
+                <label class = "formCont__form__label" for="bk_dest">Desination</label><br>
+                <select class = "formCont__form__field formCont__form__field--combobox"  id ="bk_dest" name="bk_dest">
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Iceland">Iceland</option>
+                    <option value="Greece">Greece</option>
+                </select><br>
+                <label class = "formCont__form__label" for="bk_msg">Message</label><br>
+                <input class = "formCont__form__field formCont__form__field--multiLineText"  type="text" id="bk_msg" name="bk_msg" value=""><br>
+                <input class = "formCont__form__button" type="submit" value="SUBMIT">
+            </form>
     </section>
+    
+ 
 </body>
 <footer class="footer">
     <div class="footer__card">
