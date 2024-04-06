@@ -26,11 +26,11 @@
         <h1 class="formCont__title">Book Today!</h1>
             <form class = "formCont__form" action = "">
                 <label class = "formCont__form__label" for="bk_name">Name</label><br>
-                <input class = "formCont__form__field formCont__form__field--singleLineText" type="text" id="bk_name" name="bk_name" value=""><br>
+                <input class = "formCont__form__field formCont__form__field--singleLineText" type="text" id="bk_name" name="bk_name" placeholder="Enter Name" value=""><br>
                 <label class = "formCont__form__label" for="bk_email">Email</label><br>
-                <input class = "formCont__form__field formCont__form__field--singleLineText"  type="text" id="bk_email" name="bk_email" value=""><br>
+                <input class = "formCont__form__field formCont__form__field--singleLineText"  type="email" id="bk_email" name="bk_email" placeholder="Enter Email" value=""><br>
                 <label class = "formCont__form__label" for="bk_phone">Phone</label><br>
-                <input class = "formCont__form__field formCont__form__field--singleLineText"  type="text" id="bk_phone" name="bk_phone" value=""><br>
+                <input class = "formCont__form__field formCont__form__field--singleLineText"  type="tel" id="bk_phone" name="bk_phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value=""><br>
                 <label class = "formCont__form__label" for="bk_dest">Desination</label><br>
                 <select class = "formCont__form__field formCont__form__field--combobox"  id ="bk_dest" name="bk_dest">
                     <option value="Hawaii">Hawaii</option>
@@ -38,7 +38,7 @@
                     <option value="Greece">Greece</option>
                 </select><br>
                 <label class = "formCont__form__label" for="bk_msg">Message</label><br>
-                <input class = "formCont__form__field formCont__form__field--multiLineText"  type="text" id="bk_msg" name="bk_msg" value=""><br>
+                <textarea class = "formCont__form__field formCont__form__field--multiLineText" id="bk_msg" name="bk_msg" placeholder="Enter optional message" value=""></textarea><br>
                 <input class = "formCont__form__button" type="submit" value="SUBMIT">
             </form>
     </section>
