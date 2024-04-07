@@ -200,11 +200,6 @@
   animation-duration: 0.25s;
   animation-fill-mode: forwards;
 }
-.recommendation__cards__item:notactive {
-  animation: cardHover;
-  animation-duration: 0.25s;
-  animation-fill-mode: forwards;
-}
 .recommendation__cards__item:active {
   top: 0px;
   left: 0px;

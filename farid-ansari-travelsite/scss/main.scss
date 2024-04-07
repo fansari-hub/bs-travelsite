@@ -78,12 +78,6 @@
                 animation-fill-mode: forwards;
             }
 
-            &:notactive{
-                animation: cardHover;
-                animation-duration: 0.25s;
-                animation-fill-mode: forwards;
-            }
-
             &:active{
                 top: 0px;
                 left: 0px;
