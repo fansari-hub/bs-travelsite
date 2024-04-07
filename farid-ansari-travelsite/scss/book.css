@@ -33,7 +33,6 @@
 }
 :root {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
 }
 
 .mainBody {
@@ -54,7 +53,7 @@
 .header__wordmark {
   color: #335576;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.14rem;
 }
 .header__wordmark__link {
   color: #335576;
@@ -116,15 +115,15 @@
 }
 .footer__card__title {
   color: #335576;
-  font-size: 1.55rem;
+  font-size: 1.36rem;
 }
 .footer__card__text {
   color: #335576;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 .footer__card__hightlight {
   color: #DB7A4E;
-  font-size: 0.65rem;
+  font-size: 0.56rem;
 }
 .footer__card__icon {
   background-color: none;
@@ -145,7 +144,7 @@
 }
 .formCont__title {
   color: #335576;
-  font-size: 2.5rem;
+  font-size: 2.186rem;
 }
 .formCont__form {
   background-color: rgba(255, 255, 255, 0.9);
@@ -158,11 +157,11 @@
 }
 .formCont__form__label {
   color: #DB7A4E;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 .formCont__form__field {
   color: black;
-  font-size: 1rem;
+  font-size: 0.875rem;
   margin-bottom: 14px;
 }
 .formCont__form__field--singleLineText {

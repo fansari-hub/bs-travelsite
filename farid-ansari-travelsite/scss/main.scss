@@ -14,12 +14,14 @@
 
     &__slogan{
         color: $colTitle;
-        font-size: 2.5rem;
+        //font-size: 2.5rem;
+        font-size: 2.19rem;
     }
 
     &__text{
         color: $colTitle;
-        font-size: 1rem;
+        //font-size: 1rem;
+        font-size: 0.875rem;
     }
 
     &__CTAButton{
@@ -54,7 +56,8 @@
 
     &__title{
         color: $colTitle;
-        font-size: 1.6rem;
+        //font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     &__cards{
@@ -95,7 +98,8 @@
                 bottom: 0px;
                 right: 20px;
                 color: $colDesinationLabel;
-                font-size: 1.6rem;
+                //font-size: 1.6rem;
+                font-size: 1.4rem;
                 font-weight: 700;
             }
         }

@@ -16,7 +16,8 @@
 
     &__title{
         color: $colTitle;
-        font-size: 2.5rem;
+        //font-size: 2.5rem;
+        font-size: 2.186rem;
     }
 
     &__form{
@@ -32,12 +33,14 @@
 
         &__label{
             color: $colHighlight;
-            font-size: 1rem;
+            //font-size: 1rem;
+            font-size:0.875rem;
         }
 
         &__field{
             color: $colText;
-            font-size: 1rem;
+            //font-size: 1rem;
+            font-size: 0.875rem;
             margin-bottom: 14px;
 
             &--singleLineText{

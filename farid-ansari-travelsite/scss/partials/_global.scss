@@ -3,7 +3,7 @@
 
 :root{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    //font-size: 14px;
 }
 
 .mainBody{
@@ -25,7 +25,8 @@
     &__wordmark{
         color: $colWordMark;
         font-weight: 700;
-        font-size: 1.3rem;
+        //font-size: 1.3rem;
+        font-size: 1.14rem;
 
         &__link{
             color: $colWordMark;
@@ -99,17 +100,21 @@
 
         &__title{
             color: $colTitle;
-            font-size: 1.55rem;
+            //font-size: 1.55rem;
+            font-size: 1.36rem;
+
         }    
 
         &__text{
             color: $colTitle;
-            font-size: 1rem;
+            //font-size: 1rem;
+            font-size: 0.875rem;
         }
 
         &__hightlight{
             color: $colHighlight;
-            font-size: 0.65rem;
+            //font-size: 0.65rem;
+            font-size: 0.56rem;
         }
 
         &__icon{

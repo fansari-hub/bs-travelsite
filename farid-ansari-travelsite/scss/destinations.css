@@ -33,7 +33,6 @@
 }
 :root {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
 }
 
 .mainBody {
@@ -54,7 +53,7 @@
 .header__wordmark {
   color: #335576;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.14rem;
 }
 .header__wordmark__link {
   color: #335576;
@@ -116,15 +115,15 @@
 }
 .footer__card__title {
   color: #335576;
-  font-size: 1.55rem;
+  font-size: 1.36rem;
 }
 .footer__card__text {
   color: #335576;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 .footer__card__hightlight {
   color: #DB7A4E;
-  font-size: 0.65rem;
+  font-size: 0.56rem;
 }
 .footer__card__icon {
   background-color: none;
@@ -156,7 +155,7 @@
 }
 .destination__title {
   color: #FFFFFF;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .destination__cards {
   display: flex;
@@ -178,7 +177,7 @@
 .destination__cards__item__label {
   text-align: center;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.09rem;
   border: solid;
   border-width: 0px 0px 2px 0px;
 }
@@ -194,5 +193,5 @@
   padding-top: 13px;
   padding-bottom: 13px;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1 rem;
 }/*# sourceMappingURL=destinations.css.map */

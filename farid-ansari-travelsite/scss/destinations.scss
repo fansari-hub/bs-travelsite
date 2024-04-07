@@ -30,7 +30,8 @@
 
     &__title{
         color: $colDesinationLabel;
-        font-size: 4rem;
+        //font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     &__cards{
@@ -54,7 +55,9 @@
             &__label{
                 text-align: center;
                 font-weight: 700;
-                font-size: 1.25rem;
+                //font-size: 1.25rem;
+                font-size: 1.09rem;
+
                 border: solid;
                 border-width: 0px 0px 2px 0px;
             }
@@ -71,7 +74,8 @@
                     padding-top: 13px;
                     padding-bottom: 13px;
                     text-align: center;
-                    font-size: 1.1rem;
+                    //font-size: 1.1rem;
+                    font-size: 1 rem;
                     
                 }
             }
